@@ -1,0 +1,35 @@
+If you're using FloydHub, set data_dir to "/input" and use the FloydHub data ID "R5KrjnANiKVhLWAkpXhNBe".
+
+
+Step 1:
+floyd login
+
+Step 2:
+floyd init face_recog
+
+
+Check to see if data is there
+	floyd run --data R5KrjnANiKVhLWAkpXhNBe "ls -la /input"
+
+To view logs enter:
+    floyd logs kcGyPbhUtq9yaTg7Q2fRAE	
+
+
+FloydHub: techm... ; AppleS...
+
+floyd run --env tensorflow-1.0 --mode jupyter --gpu
+
+
+Floyd status
+
+Floyd stop ID	
+
+
+### Some references:
+
+https://github.com/Eudie/Udacity-Deep_Learning_Foundation/blob/master/project5_face_generation/dlnd_face_generation.ipynb
+
+https://github.com/khalidbouziane/Face_generation/blob/master/dlnd_face_generation.ipynb
+
+https://github.com/theamazingfedex/ml-project-5/blob/master/face_generation/dlnd_face_generation.ipynb
+
